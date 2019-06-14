@@ -4,19 +4,15 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Computing, Front End Development"
 
 project:
-  title: "Red Pineapple"
-  type: "Jekyll"
-  url: "https://github.com/arnolds/pineapple"
+  title: "How To Reduce Plastic"
+  type: "Computing"
+  url: "https://howtoreduceplastic.com"
   logo: "/assets/images/projects/redpineapple/logo.png"
-  tech: "HTML, CSS, Boostrap, Sass, JavaScript, jQuery, Jekyll"
-
-agency:
-  title: "Red Pineapple Co"
-  url: "https://github.com/arnolds/pineapple"
-  year: "2017"
+  tech: "ReactJS, SCSS/SASS, Adobe Illustrator"
+  year: "2018"
 
 images:
   - image:
@@ -29,4 +25,7 @@ images:
     url: "/assets/images/projects/redpineapple/mobile.jpg"
     alt: "Red Pineapple website on a mobile device"
 ---
-<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
+
+<p>How To Reduce Plastic is a collection of top tips on ways to reduce plastic consumption, where tips are based on personal knowledge and experience. This website was built during my free time, with the interest of learning Front-end development as well as sharing with everyone that reducing plastic and helping protect the environment can be very exciting and fun!</p>
+<br/>
+<p>Zine: <a href="https://gum.co/reduce-plastic-zine">https://gum.co/reduce-plastic-zine</a></p>
