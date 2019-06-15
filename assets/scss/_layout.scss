@@ -20,7 +20,7 @@
 
         &:hover {
           color: $color-blue;
-          transition: 0.10s all ease-in-out;
+          transition: 0.1s all ease-in-out;
         }
       }
     }
@@ -36,7 +36,7 @@
   a {
     &:hover {
       color: $color-blue;
-      transition: 0.10s all ease-in-out;
+      transition: 0.1s all ease-in-out;
     }
   }
 }
@@ -200,24 +200,20 @@
     }
 
     .project-url {
-      color: $color-tango;
-      text-decoration: underline;
+      color: $color-blue;
 
       &:hover {
-       color: $color-blue;
-       transition: 0.10s all ease-in-out;
-     }
+        text-decoration: underline;
+      }
     }
 
     p {
       a {
-        color: $color-tango;
-        text-decoration: underline;
+        color: $color-blue;
 
         &:hover {
-         color: $color-blue;
-         transition: 0.10s all ease-in-out;
-       }
+          text-decoration: underline;
+        }
       }
     }
     @media (min-width: $breakpoint-medium) {
@@ -418,6 +414,6 @@
 
   a:hover {
     color: $color-blue;
-    transition: 0.10s all ease-in-out;
+    transition: 0.1s all ease-in-out;
   }
 }

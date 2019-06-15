@@ -16,13 +16,7 @@ project:
 
 images:
   - image:
-    url: "/assets/images/projects/howtoreduceplastic/devices.jpg"
-    alt: "#"
-  - image:
-    url: "/assets/images/projects/howtoreduceplastic/desktop.jpg"
-    alt: "#"
-  - image:
-    url: "/assets/images/projects/howtoreduceplastic/mobile.jpg"
+    url: "/assets/images/projects/howtoreduceplastic/howtoreduceplastic.png"
     alt: "#"
 ---
 
