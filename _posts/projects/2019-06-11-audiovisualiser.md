@@ -26,5 +26,6 @@ images:
     alt: "Yellow Pineapple website on a mobile device"
 ---
 
-<p>An Audio Visualiser with Phyllotaxis, Superformula and Ring shapes.</p>
-<p>For more information and all audio-visual projects visit <a href="https://uyenle.carbonmade.com">https://uyenle.carbonmade.com</a></p>
+<p>An Audio Visualiser with Phyllotaxis, Superformula and Ring shapes.
+<br/><br/>
+For more information and all audio-visual projects, visit <a href="https://uyenle.carbonmade.com">https://uyenle.carbonmade.com</a></p>
