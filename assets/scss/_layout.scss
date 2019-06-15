@@ -9,22 +9,34 @@
 .header {
   background: $color-white;
   padding: 3rem 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .navigation {
+      a {
+        margin-right: 10px;
+
+        &:hover {
+          color: $color-blue;
+          transition: 0.10s all ease-in-out;
+        }
+      }
+    }
+  }
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
 
-  .logo {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin: 0;
-    line-height: 1;
-  }
-
-  .navigation {
-    a {
-      margin-right: 10px;
+  a {
+    &:hover {
+      color: $color-blue;
+      transition: 0.10s all ease-in-out;
     }
   }
 }
@@ -181,6 +193,33 @@
   article {
     margin-bottom: 3rem;
 
+    h1 {
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .project-url {
+      color: $color-tango;
+      text-decoration: underline;
+
+      &:hover {
+       color: $color-blue;
+       transition: 0.10s all ease-in-out;
+     }
+    }
+
+    p {
+      a {
+        color: $color-tango;
+        text-decoration: underline;
+
+        &:hover {
+         color: $color-blue;
+         transition: 0.10s all ease-in-out;
+       }
+      }
+    }
     @media (min-width: $breakpoint-medium) {
       float: right;
       right: 0;
@@ -375,5 +414,10 @@
 
 .contact,
 .follow {
-  margin-bottom: 3rem;
+  margin-bottom: 2em;
+
+  a:hover {
+    color: $color-blue;
+    transition: 0.10s all ease-in-out;
+  }
 }

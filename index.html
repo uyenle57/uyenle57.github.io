@@ -12,12 +12,9 @@
 <body>
 	{% include header.html %}
 	<main class="content">
-		<section class="intro">
-			<div class="container">
-			</div>
-		</section>
 		<section class="projects">
 			<div class="container">
+				<h2>Featured Projects</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 						<li>
