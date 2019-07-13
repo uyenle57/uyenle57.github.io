@@ -12,4 +12,8 @@ Start Jekyll:
 $ jekyll serve
 ```
 
-Browse to http://127.0.0.1:4000/pineapple/
+Browse to http://localhost:4000/
+
+### Credits
+
+Theme from [arnolds/pineapple](https://github.com/arnolds/pineapple).
