@@ -16,11 +16,29 @@
 
     .navigation {
       a {
-        margin-right: 10px;
+        margin-right: 30px;
 
+        // Rainbow hover effect from https://codepen.io/AllThingsSmitty/pen/yeEVav
         &:hover {
-          color: $color-blue;
-          transition: 0.1s all ease-in-out;
+          -webkit-animation: zomg 2.5s infinite;
+          animation: zomg 2.5s infinite;
+        }
+
+        @-webkit-keyframes zomg {
+          0%, 100% { color: #7ccdea; }
+          16%      { color: #0074d9; }
+          32%      { color: #2ecc40; }
+          48%      { color: #ffdc00; }
+          64%      { color: #b10dc9; }
+          80%      { color: #ff4136; }
+        }
+        @keyframes zomg {
+          0%, 100% { color: #7ccdea; }
+          16%      { color: #0074d9; }
+          32%      { color: #2ecc40; }
+          48%      { color: #ffdc00; }
+          64%      { color: #b10dc9; }
+          80%      { color: #ff4136; }
         }
       }
     }
@@ -34,9 +52,27 @@
   line-height: 1;
 
   a {
+    // Rainbow hover effect from https://codepen.io/AllThingsSmitty/pen/yeEVav
     &:hover {
-      color: $color-blue;
-      transition: 0.1s all ease-in-out;
+      -webkit-animation: zomg 2.5s infinite;
+      animation: zomg 2.5s infinite;
+    }
+
+    @-webkit-keyframes zomg {
+      0%, 100% { color: #7ccdea; }
+      16%      { color: #0074d9; }
+      32%      { color: #2ecc40; }
+      48%      { color: #ffdc00; }
+      64%      { color: #b10dc9; }
+      80%      { color: #ff4136; }
+    }
+    @keyframes zomg {
+      0%, 100% { color: #7ccdea; }
+      16%      { color: #0074d9; }
+      32%      { color: #2ecc40; }
+      48%      { color: #ffdc00; }
+      64%      { color: #b10dc9; }
+      80%      { color: #ff4136; }
     }
   }
 }
@@ -61,6 +97,35 @@
   @media (min-width: $breakpoint-medium) {
     padding: 21rem 0 0;
     margin-bottom: 23.42rem;
+  }
+}
+
+.about {
+  .container {
+    article {
+      p {
+        font-family: $font-avenirnext;
+        a {
+          color: $color-blue;
+
+          // Hover shine effect from https://codepen.io/colloque/pen/bDgmx
+          &:hover {
+            -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+            -webkit-mask-size: 200%;
+            animation: shine 2s infinite;
+          }
+
+          @-webkit-keyframes shine {
+            from {
+              -webkit-mask-position: 150%;
+            }
+            to {
+              -webkit-mask-position: -50%;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -203,18 +268,41 @@
       color: $color-blue;
 
       &:hover {
-        text-decoration: underline;
+        -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+        -webkit-mask-size: 200%;
+        animation: shine 2s infinite;
+      }
+
+      @-webkit-keyframes shine {
+        from {
+          -webkit-mask-position: 150%;
+        }
+
+        to {
+          -webkit-mask-position: -50%;
+        }
       }
     }
 
     p {
       font-family: $font-avenirnext;
-      font-weight: 500;
       a {
         color: $color-blue;
 
         &:hover {
-          text-decoration: underline;
+          -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+          -webkit-mask-size: 200%;
+          animation: shine 2s infinite;
+        }
+
+        @-webkit-keyframes shine {
+          from {
+            -webkit-mask-position: 150%;
+          }
+
+          to {
+            -webkit-mask-position: -50%;
+          }
         }
       }
     }
@@ -414,8 +502,26 @@
 .follow {
   margin-bottom: 2em;
 
+  // Rainbow hover effect from https://codepen.io/AllThingsSmitty/pen/yeEVav
   a:hover {
-    color: $color-blue;
-    transition: 0.1s all ease-in-out;
+    -webkit-animation: zomg 2.5s infinite;
+    animation: zomg 2.5s infinite;
+  }
+
+  @-webkit-keyframes zomg {
+    0%, 100% { color: #7ccdea; }
+    16%      { color: #0074d9; }
+    32%      { color: #2ecc40; }
+    48%      { color: #ffdc00; }
+    64%      { color: #b10dc9; }
+    80%      { color: #ff4136; }
+  }
+  @keyframes zomg {
+    0%, 100% { color: #7ccdea; }
+    16%      { color: #0074d9; }
+    32%      { color: #2ecc40; }
+    48%      { color: #ffdc00; }
+    64%      { color: #b10dc9; }
+    80%      { color: #ff4136; }
   }
 }

@@ -10,9 +10,9 @@ github: "https://github.com/uyenle57"
 behance: "https://behance.net/uyenle"
 
 #Site navigation
-about: "about"
-illustrations: "illustrations"
-computing: "computing"
+about: "About"
+illustrations: "Illustrations"
+computing: "Computing"
 
 # Site config
 baseurl: ""
