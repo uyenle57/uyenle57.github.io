@@ -1,13 +1,13 @@
 ---
-layout: project
+layout: all-computing
 permalink: /:title/
-category: projects
+category: computing
 
 meta:
   keywords: "Computing"
 
 project:
-  title: "Audio Visualiser"
+  title: "AudioVisualiser"
   type: "Computing"
   url: "https://github.com/uyenle57/AVP-AudioVisualiser"
   logo: "/assets/images/projects/audiovisual/logo.png"
