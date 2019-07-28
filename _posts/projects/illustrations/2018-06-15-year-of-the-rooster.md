@@ -10,16 +10,16 @@ project:
   title: "Year of the Rooster"
   type: "Illustrations"
   url: ""
-  logo: "/assets/images/projects/illustrations/year-of-the-rooster/logo.jpg"
+  logo: "/assets/images/projects/illustrations/year-of-the-rooster/logo.JPG"
   tech: "Watercolour on paper"
   year: "2017"
 
 images:
   - image:
-    url: "/assets/images/projects/illustrations/year-of-the-rooster/final.jpg"
+    url: "/assets/images/projects/illustrations/year-of-the-rooster/final.JPG"
     alt: ""
   - image:
-    url: "/assets/images/projects/illustrations/year-of-the-rooster/zoom.jpg"
+    url: "/assets/images/projects/illustrations/year-of-the-rooster/zoom.JPG"
     alt: ""
 ---
 
