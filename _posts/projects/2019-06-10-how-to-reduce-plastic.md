@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: homepage-projects
 
 meta:
   keywords: "Computing, Front End Development"
@@ -10,13 +10,13 @@ project:
   title: "How To Reduce Plastic"
   type: "Computing"
   url: "https://howtoreduceplastic.com"
-  logo: "/assets/images/projects/howtoreduceplastic/logo.png"
+  logo: "/assets/images/projects/computing/howtoreduceplastic/logo.png"
   tech: "ReactJS, SCSS/SASS, Adobe Illustrator"
   year: "2018"
 
 images:
   - image:
-    url: "/assets/images/projects/howtoreduceplastic/howtoreduceplastic.png"
+    url: "/assets/images/projects/computing/howtoreduceplastic/howtoreduceplastic.png"
     alt: "#"
 ---
 
