@@ -19,10 +19,10 @@ images:
     url: "/assets/images/projects/illustrations/grenville-jewell/final.jpg"
     alt: ""
   - image:
-    url: "/assets/images/projects/illustrations/grenville-jewell/progress2.jpg"
+    url: "/assets/images/projects/illustrations/grenville-jewell/progress2.JPG"
     alt: ""
   - image:
-    url: "/assets/images/projects/illustrations/grenville-jewell/zoom.jpg"
+    url: "/assets/images/projects/illustrations/grenville-jewell/zoom.JPG"
     alt: ""
   - image:
     url: "/assets/images/projects/illustrations/grenville-jewell/progress1.jpeg"
