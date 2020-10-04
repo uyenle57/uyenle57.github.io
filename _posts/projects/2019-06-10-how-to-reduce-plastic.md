@@ -11,7 +11,7 @@ project:
   type: "Computing"
   url: "https://howtoreduceplastic.com"
   logo: "/assets/images/projects/computing/howtoreduceplastic/logo.png"
-  tech: "ReactJS, SCSS/SASS, Adobe Illustrator"
+  tech: "NodeJS, ReactJS, SCSS/SASS, Bootstrap 4, Adobe Illustrator"
   year: "2018"
 
 images:
