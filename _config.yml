@@ -14,7 +14,7 @@ illustrations: "Illustrations"
 computing: "Computing"
 
 # Site config
-baseurl: ""
+baseurl: "https://uyenle5796.github.io"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
