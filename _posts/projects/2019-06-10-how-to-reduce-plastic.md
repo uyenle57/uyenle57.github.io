@@ -9,7 +9,7 @@ meta:
 project:
   title: "How To Reduce Plastic"
   type: "Computing"
-  url: "https://howtoreduceplastic.com"
+  url: "https://uyenle5796.github.io/howtoreduceplastic/"
   logo: "/assets/images/projects/computing/howtoreduceplastic/logo.png"
   tech: "NodeJS, ReactJS, SCSS/SASS, Bootstrap 4, Adobe Illustrator"
   year: "2018"
