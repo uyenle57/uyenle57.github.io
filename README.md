@@ -1,5 +1,7 @@
 # Uyen Le Github Pages
 
+![screenshot](./screenshot.png)
+
 Install dependencies:
 
 ```

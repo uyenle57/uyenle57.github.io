@@ -9,7 +9,7 @@ meta:
 project:
   title: "Google Galaxy"
   type: "Computing"
-  url: "https://github.com/uyenle57/GoogleGalaxy"
+  url: "https://github.com/uyenle5796/GoogleGalaxy"
   logo: "/assets/images/projects/computing/google-galaxy/logo.jpg"
   tech: "Processing 2"
   year: "2015"
